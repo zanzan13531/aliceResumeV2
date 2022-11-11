@@ -4,11 +4,14 @@ body {
     font-size: 100%;
     border: 0px;
     margin: 0px;
+    background-color: black;
+    color: white;
 }
 
 #header_intro {
     background-image: url("bg1.jpg");
     font-style: italic;
+    color: black;
 }
 
 #header_intro_text, #about_me_text, #projects_text {
@@ -20,6 +23,11 @@ body {
 #about_me, #projects {
     background-color: black;
     color: white;
+}
+
+#contact {
+    background-color: white;
+    color: black;
 }
 
 div {
