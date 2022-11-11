@@ -1,20 +1,41 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html, body {
     text-align: center;
     font-family: 'Verdana', sans-serif;
     font-size: 100%;
     border: 0px;
     margin: 0px;
+    height: 100%;
     background-color: black;
     color: white;
+    box-sizing: border-box;
+}
+
+#header_chunk {
+    height: 100%;
+    width: 100%;
+    background-image: url("bg1.jpg");
+    margin: auto;
 }
 
 #header_intro {
-    background-image: url("bg1.jpg");
+    height: 100%;
     font-style: italic;
     color: black;
+    margin-top: auto;
+    padding: 200px, 0px, 200px, 0px;
 }
 
-#header_intro_text, #about_me_text, #projects_text {
+#about_me_text, #projects_text {
     width: 90%;
     height: 90%;
     margin: auto;
@@ -38,6 +59,11 @@ div {
 img {
     max-width:100%;
     max-height:100%;
+}
+
+#about_me_picture {
+    width: 50%;
+    height: 50%;
 }
 
 h1 {
