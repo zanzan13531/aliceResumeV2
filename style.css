@@ -95,3 +95,7 @@ button {
     border: 3px;
     border-color: black;
 }
+
+#content_to_show {
+    display: none;
+}
